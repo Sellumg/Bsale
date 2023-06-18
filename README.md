@@ -1,4 +1,4 @@
-# 🧑‍💻 Desafío Bsale - Simulación check-in de aerolínea
+#Simulación check-in de aerolínea
 
 ## Tabla de contenidos
 
@@ -8,9 +8,6 @@
 4. [Instalación local](#instalación-local)
 5. [Tecnologías y lenguajes utilizados](#Tecnologías-y-lenguajes-utilizados)
 6. [Documentación](#documentación)
-7. [Referencias](#referencias)
-8. [Demo](#demo)
-9. [Autor](#Autor)
 
 ## Descripción
 
@@ -21,10 +18,6 @@ Es una API REST con un solo endpoint que permita consultar por el ID del vuelo y
 Se debe crear una API REST con un solo endpoint que permita consultar por el ID del vuelo y retornar la simulación del check-in de pasajeros. El lenguaje y/o framework es de libre elección.
 
 Para ello se contará con una base de datos (solo lectura) que contiene todos los datos necesarios para la simulación. El servidor está configurado para que todas aquellas conexiones inactivas por más de 5 segundos sean abortadas, por lo que se requiere controlar la reconexión.
-
-![erd](https://user-images.githubusercontent.com/61089189/228735639-08f7e264-8b2b-4c24-962d-c719dc37626f.png)
-
-Tal como muestra el ERD:
 
 * Una compra puede tener muchas tarjetas de embarque asociadas, pero estas tarjetas pueden no tener un asiento asociado, siempre tendrá un tipo de asiento, por lo tanto, al retornar la simulación del check-in se debe asignar el asiento a cada tarjeta de embarque.
 
@@ -159,32 +152,9 @@ Y navegar a la ruta
 http://127.0.0.1:8000/
 ```
 
-## Tecnologías y lenguajes utilizados
-
-* **Python** (v. 3.10.7) [Source](https://www.python.org/)
-* **Django** (v. 4.1.7)  [Source](https://www.djangoproject.com/)
-* **Django Rest Framework** (v. 3.14.0) [Source](https://www.django-rest-framework.org/)
-* **Tenacity** (v. 8.2.2) [Source](https://tenacity.readthedocs.io/en/latest/)
-* **django-cors-headers** (v. 3.14.0) [Source](https://pypi.org/project/django-cors-headers/)
-* **drf-yasg** (v. 1.21.5) [Source](https://drf-yasg.readthedocs.io/en/stable/)
-* **gunicorn** (v. 20.1.0) [Source](https://gunicorn.org/)
-* **whitenoise** (v. 6.4.0) [Source](https://whitenoise.readthedocs.io/en/latest/)
-* **Railway**  [Source](https://docs.railway.app/)
-
 ## Documentación
 Para la documentación del proyecto se utilizó Swagger por su capacidad para generar documentación dinámica y en tiempo real de los servicios web que se están construyendo.
 La documentación del projecto en swagger está en este [Link](https://airline-check-in-production.up.railway.app/swagger/)
 
-## Referencias
 
-Para diseñar la lógica de programación del proyecto usé el artículo ["Experimental test of airplane boarding methods"](https://arxiv.org/pdf/1108.5211.pdf) de Jason H. Steffen y Jon Hotchkiss.
-
-## Demo
-Para el despliegue del proyecto se utilizó Railway porque puede integrarse en un flujo de trabajo de integración continua (CI) y entrega continua (CD) utilizando pruebas automatizadas y herramientas de automatización de despliegue.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://airline-check-in-production.up.railway.app/)
-
-## Autor
-
-- [Gefferson Casasola](https://github.com/Geffrerson7)
 "# Bsale" 
