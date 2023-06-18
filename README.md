@@ -110,7 +110,7 @@ Para ejecutar este proyecto, necesitará agregar las siguientes variables de ent
 Clonar el proyecto
 
 ```bash
-$ git clone https://github.com/Geffrerson7/airline-check-in.git
+$ git clone https://github.com/Sellumg/Bsale
 ```
 
 Ir al directorio del proyecto
@@ -157,4 +157,4 @@ Para la documentación del proyecto se utilizó Swagger por su capacidad para ge
 La documentación del projecto en swagger está en este [Link](https://airline-check-in-production.up.railway.app/swagger/)
 
 
-"# Bsale" 
+
