@@ -1,4 +1,4 @@
-#Simulación check-in de aerolínea
+##Simulación check-in de aerolínea
 
 ## Tabla de contenidos
 
