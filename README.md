@@ -4,10 +4,9 @@
 
 1. [Descripción](#descripción)
 2. [Desafío](#desafío)
-3. [Estrategia de ramificación de Git](#estrategia-de-ramificación-de-git)
-4. [Instalación local](#instalación-local)
-5. [Tecnologías y lenguajes utilizados](#Tecnologías-y-lenguajes-utilizados)
-6. [Documentación](#documentación)
+3. [Instalación local](#instalación-local)
+4. [Tecnologías y lenguajes utilizados](#Tecnologías-y-lenguajes-utilizados)
+5. [Documentación](#documentación)
 
 ## Descripción
 
@@ -86,10 +85,6 @@ En caso de error:
 
 ```
 
-## Estrategia de ramificación de Git
-
-En este proyecto se trabaja con tres ramas:
-La rama develop para agregar las funcionalides, algoritmos y configuraciones principales en la etapa de desarrollo, production para agregar las configuraciones que se requiera al hacer el despliegue de la aplicación y el main para que reuna todos los cambios de las ramas anteriores.
 
 ## Instalación local
 
